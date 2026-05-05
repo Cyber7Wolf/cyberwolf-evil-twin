@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Captured data
+captured.txt
+captured_creds.json
+assessment_report.txt
+*.log
+
+# Temporary files
+/tmp/
+*.tmp
+*.bak
+*.swp
+
+# Portals (keep structure but not content)
+portals/*.html
+!portals/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
